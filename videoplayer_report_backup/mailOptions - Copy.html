@@ -1,0 +1,68 @@
+<html>
+   <head>
+      <p>
+         <b>
+      <h2><center>SportsrocketQA Automation Test Report</center></h2></b></p>
+      <p>Herewith attached the Test Report for the executed script in nightwatch.js.</p>
+      <h3><u>Summary Information</u></h3>
+      <style>
+         table, th, td {
+         border: 1px solid black;
+         border-collapse: collapse;
+         text-align: center;
+         }
+      </style>
+      <table style="width:100%">
+         <tr>
+            <th style = "background-color:#4CAF50" >Report Generated Time</th>
+            <th style = "background-color:#4CAF50">Duration</th>
+            <th style = "background-color:#4CAF50">Tests Executed count</th>
+            <th style = "background-color:#4CAF50">Title</th>
+         </tr>
+         <tr>
+            <td style="color:maroon">Sat, 10 Jun 2017 11:47:38 GMT </td>
+            <td style="color:maroon">1063.1300000000003 sec</td>
+            <td style="color:purple">15</td>
+            <td style="color:purple">Fullscreen / Endslate / Autoplay / VideoplayerUI / Player-Playpause / Playthrough / Share_Facebook / Share / Share_Linkedin / Share_Google / Share_Pinterest / Share_Twitter / Share_Tumblr / Player-Progressbar / Player-Volume / </td>
+         </tr>
+      </table>
+      <h3><u>Test Statistics</u></h3>
+      <table style="width:80%">
+         <tr>
+            <th style = "background-color:#4CAF50">Total count of Pass</th>
+            <th style = "background-color:#4CAF50">Total count of Failures</th>
+            <th style = "background-color:#4CAF50">Total count of Errors</th>
+            <th style = "background-color:#4CAF50">Total count of Skipped</th>
+         </tr>
+         <tr>
+            <td>8</td>
+            <td>12</td>
+            <td>23</td>
+            <td>0</td>
+         </tr>
+      </table>
+      <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+      <script type="text/javascript">
+         google.load("visualization", "1", {packages:["corechart"]});
+         google.setOnLoadCallback(drawChart);
+              
+                function drawChart() {         
+                  var data = google.visualization.arrayToDataTable([
+                    ['Status', 'Test Report'],
+                    ['Skipped', 0],
+                    ['Failure', 12],
+                    ['Error', 23],
+                    ['Pass', 8]
+                   ]);         
+                  var options = {
+                    title: 'Test Report for NightwatchJS scripts'
+                  };         
+                  var chart = new google.visualization.PieChart(document.getElementById('piechart'));  chart.draw(data, options);
+                }
+             
+      </script>
+   </head>
+   <body>
+      <div id="piechart" style="width: 900px; height: 500px;"></div>
+   </body>
+</html>

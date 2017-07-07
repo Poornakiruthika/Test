@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="Slider"
+    errors="0" failures="1" hostname="" id="" package="videoplayer" skipped="0"
+    tests="1" time="31.42" timestamp="Wed, 14 Jun 2017 13:57:13 GMT">
+  
+    <testcase name="Player-Progressbar" time="31.42" assertions="1">  <failure message="Timed out while waiting for element &lt;.unimatrix-video-controls-indicator &gt; .unimatrix-video-controls-indicator-icon&gt; to be present for 10000 milliseconds.">    at Object.exports.command (D:\dev\nightwatch\node_modules\nightwatch\custom-commands\playvideo.js:5:3)
+    at Object.F.command (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\core\api.js:274:31)
+    at Object.commandFn (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\core\api.js:287:24)
+    at AsyncTree.runCommand (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\core\queue.js:159:30)
+    at AsyncTree.runChildNode (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\core\queue.js:119:8)
+    at AsyncTree.walkDown (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\core\queue.js:85:10)
+    at AsyncTree.walkUp (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\core\queue.js:102:8)
+    at AsyncTree.walkDown (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\core\queue.js:95:12)
+    at AsyncTree.traverse (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\core\queue.js:73:10)
+    at HttpRequest.onCommandComplete (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\core\queue.js:136:12)
+    at HttpRequest.g (events.js:292:16)
+    at emitNone (events.js:86:13)
+    at HttpRequest.emit (events.js:185:7)
+    at HttpRequest.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\index.js:361:15)
+    at emitTwo (events.js:106:13)
+    at HttpRequest.emit (events.js:191:7)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

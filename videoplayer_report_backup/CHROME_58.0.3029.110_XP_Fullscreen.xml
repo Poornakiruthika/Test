@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="Fullscreen"
+    errors="0" failures="0" hostname="" id="" package="videoplayer" skipped="0"
+    tests="1" time="33.19" timestamp="Wed, 14 Jun 2017 13:57:13 GMT">
+  
+    <testcase name="Fullscreen" time="33.19" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

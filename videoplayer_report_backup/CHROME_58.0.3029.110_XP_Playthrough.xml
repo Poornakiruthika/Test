@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="3"
+            failures="1"
+            tests="1">
+
+  <testsuite name="Playthrough"
+    errors="0" failures="1" hostname="" id="" package="videoplayer" skipped="0"
+    tests="1" time="159.5" timestamp="Wed, 14 Jun 2017 13:57:13 GMT">
+  
+    <testcase name="Playthrough" time="159.5" assertions="12">
+
+      <failure message="Timed out while waiting for element &lt;.endslate-up-next-play &gt; #endslate-spinner&gt; to be present for 5000 milliseconds.">    at Object.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\Bedrocket\videoplayer\playthrough.js:42:19)
+    at Object.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\api\element-commands.js:360:20)
+    at HttpRequest.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\index.js:339:20)
+    at emitTwo (events.js:106:13)
+    at HttpRequest.emit (events.js:191:7)
+    at HttpRequest.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\index.js:367:15)
+    at emitThree (events.js:116:13)
+    at HttpRequest.emit (events.js:194:7)
+    at IncomingMessage.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\http\request.js:155:16)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+
+      <failure message="Failed [fail]: (Player doesn&#39;t display the next relevant item after reach the end of the video)">Failed [fail]: (Player doesn&#39;t display the next relevant item after reach the end of the video): Failed [fail]: (Player doesn&#39;t display the next relevant item after reach the end of the video) - Expected &quot;true&quot; but got: &quot;false&quot;
+    at Object.fail (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\core\api.js:67:24)
+    at Object.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\Bedrocket\videoplayer\playthrough.js:61:35)
+    at F.WaitForElement.complete (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\api\element-commands\_waitForElement.js:181:11)
+    at F.WaitForElement.fail (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\api\element-commands\_waitForElement.js:195:15)
+    at F.WaitForElementPresent.elementNotFound (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\api\element-commands\waitForElementPresent.js:57:15)
+    at Object.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\api\element-commands\_waitForElement.js:221:17)
+    at HttpRequest.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\index.js:339:20)
+    at emitTwo (events.js:106:13)
+    at HttpRequest.emit (events.js:191:7)
+    at HttpRequest.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\index.js:367:15)
+    at emitThree (events.js:116:13)
+    at HttpRequest.emit (events.js:194:7)
+    at IncomingMessage.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\http\request.js:155:16)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)</failure>
+
+    
+
+      <failure message="Timed out while waiting for element &lt;.endslate-up-next-play &gt; #endslate-spinner&gt; to be present for 5000 milliseconds.">    at Object.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\Bedrocket\videoplayer\playthrough.js:42:19)
+    at Object.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\api\element-commands.js:360:20)
+    at HttpRequest.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\index.js:339:20)
+    at emitTwo (events.js:106:13)
+    at HttpRequest.emit (events.js:191:7)
+    at HttpRequest.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\index.js:367:15)
+    at emitThree (events.js:116:13)
+    at HttpRequest.emit (events.js:194:7)
+    at IncomingMessage.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\http\request.js:155:16)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+
+      <failure message="Failed [fail]: (Player doesn&#39;t display the next relevant item after reach the end of the video)">Failed [fail]: (Player doesn&#39;t display the next relevant item after reach the end of the video): Failed [fail]: (Player doesn&#39;t display the next relevant item after reach the end of the video) - Expected &quot;true&quot; but got: &quot;false&quot;
+    at Object.fail (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\core\api.js:67:24)
+    at Object.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\Bedrocket\videoplayer\playthrough.js:61:35)
+    at F.WaitForElement.complete (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\api\element-commands\_waitForElement.js:181:11)
+    at F.WaitForElement.fail (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\api\element-commands\_waitForElement.js:195:15)
+    at F.WaitForElementPresent.elementNotFound (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\api\element-commands\waitForElementPresent.js:57:15)
+    at Object.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\api\element-commands\_waitForElement.js:221:17)
+    at HttpRequest.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\index.js:339:20)
+    at emitTwo (events.js:106:13)
+    at HttpRequest.emit (events.js:191:7)
+    at HttpRequest.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\index.js:367:15)
+    at emitThree (events.js:116:13)
+    at HttpRequest.emit (events.js:194:7)
+    at IncomingMessage.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\http\request.js:155:16)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)</failure>
+
+    
+
+    
+
+    
+
+      <failure message="Failed [fail]: (Playthrough functionality is not working)">Failed [fail]: (Playthrough functionality is not working): Failed [fail]: (Playthrough functionality is not working) - Expected &quot;true&quot; but got: &quot;&quot;
+    at Object.fail (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\core\api.js:67:24)
+    at Object.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\Bedrocket\videoplayer\playthrough.js:53:39)
+    at F.WaitForElement.complete (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\api\element-commands\_waitForElement.js:181:11)
+    at F.WaitForElement.pass (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\api\element-commands\_waitForElement.js:189:15)
+    at F.WaitForElementNotPresent.elementNotFound (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\api\element-commands\waitForElementNotPresent.js:50:15)
+    at Object.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\api\element-commands\_waitForElement.js:221:17)
+    at HttpRequest.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\index.js:339:20)
+    at emitTwo (events.js:106:13)
+    at HttpRequest.emit (events.js:191:7)
+    at HttpRequest.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\index.js:367:15)
+    at emitThree (events.js:116:13)
+    at HttpRequest.emit (events.js:194:7)
+    at IncomingMessage.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\http\request.js:155:16)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)</failure>
+
+    
+
+      <failure message="Failed [fail]: (Error in the Player duration time)">Failed [fail]: (Error in the Player duration time): Failed [fail]: (Error in the Player duration time) - Expected &quot;&quot; but got: &quot;01:39&quot;
+    at Object.fail (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\core\api.js:67:24)
+    at Object.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\Bedrocket\videoplayer\playthrough.js:70:31)
+    at Object.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\api\element-commands.js:360:20)
+    at HttpRequest.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\index.js:339:20)
+    at emitTwo (events.js:106:13)
+    at HttpRequest.emit (events.js:191:7)
+    at HttpRequest.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\index.js:367:15)
+    at emitThree (events.js:116:13)
+    at HttpRequest.emit (events.js:194:7)
+    at IncomingMessage.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\http\request.js:155:16)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

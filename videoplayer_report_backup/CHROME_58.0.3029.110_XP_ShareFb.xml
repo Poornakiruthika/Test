@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="ShareFb"
+    errors="0" failures="1" hostname="" id="" package="videoplayer" skipped="0"
+    tests="1" time="637.4" timestamp="Wed, 14 Jun 2017 13:57:13 GMT">
+  
+    <testcase name="Share_Facebook" time="637.4" assertions="30">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;.login_error_box &gt; .fwb&gt; to be removed for 5000 milliseconds.">    at Object.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\Bedrocket\videoplayer\ShareFb.js:80:13)
+    at F.WaitForElement.complete (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\api\element-commands\_waitForElement.js:181:11)
+    at F.WaitForElement.pass (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\api\element-commands\_waitForElement.js:189:15)
+    at F.WaitForElementVisible.elementVisible (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\api\element-commands\waitForElementVisible.js:50:15)
+    at Object.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\api\element-commands\_waitForElement.js:239:19)
+    at HttpRequest.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\index.js:339:20)
+    at emitTwo (events.js:106:13)
+    at HttpRequest.emit (events.js:191:7)
+    at HttpRequest.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\index.js:367:15)
+    at emitThree (events.js:116:13)
+    at HttpRequest.emit (events.js:194:7)
+    at IncomingMessage.&lt;anonymous&gt; (D:\dev\nightwatch\node_modules\nightwatch\node_modules\nightwatch\lib\http\request.js:155:16)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)</failure>
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
